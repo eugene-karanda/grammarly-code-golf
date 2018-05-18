@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+}
+
+group 'org.overmind.grammarly-code-golf'
+
+sourceCompatibility = 1.8
+
+task wrapper(type: Wrapper) {
+    gradleVersion = "4.6"
+}
